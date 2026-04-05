@@ -56,37 +56,35 @@ Tired of manually browsing AI news every morning? This pipeline does it all auto
 
 ## 📁 Project Structure
 
-neural-news-forge/
-├── app/
-│   ├── agent/
-│   │   ├── digest_agent.py      # Summarizes each article with LLM
-│   │   ├── curator_agent.py     # Ranks articles by user profile
-│   │   └── email_agent.py       # Writes personalized introduction
-│   ├── database/
-│   │   ├── models.py            # SQLAlchemy table definitions
-│   │   ├── repository.py        # All DB operations
-│   │   └── connection.py        # PostgreSQL connection
-│   ├── scrapers/
-│   │   ├── anthropic.py         # Anthropic RSS scraper
-│   │   ├── openai.py            # OpenAI RSS scraper
-│   │   └── youtube.py           # YouTube RSS + transcript scraper
-│   ├── services/
-│   │   ├── process_anthropic.py # Fetch full article markdown
-│   │   ├── process_youtube.py   # Fetch video transcripts
-│   │   ├── process_digest.py    # Run digest generation
-│   │   └── process_email.py     # Build and send email
-│   ├── profiles/
-│   │   └── user_profile.py      # Your interests and preferences
-│   ├── config.py                # YouTube channel config
-│   ├── daily_runner.py          # Orchestrates all 5 stages
-│   └── runner.py                # Runs all scrapers
-├── docker/
-│   └── docker-compose.yml       # PostgreSQL container
-├── main.py                      # Entry point
-├── pyproject.toml               # Dependencies
-└── .env                         # Your credentials (not committed)
-
----
+    neural-news-forge/
+    ├── app/
+    │   ├── agent/
+    │   │   ├── digest_agent.py      # Summarizes each article with LLM
+    │   │   ├── curator_agent.py     # Ranks articles by user profile
+    │   │   └── email_agent.py       # Writes personalized introduction
+    │   ├── database/
+    │   │   ├── models.py            # SQLAlchemy table definitions
+    │   │   ├── repository.py        # All DB operations
+    │   │   └── connection.py        # PostgreSQL connection
+    │   ├── scrapers/
+    │   │   ├── anthropic.py         # Anthropic RSS scraper
+    │   │   ├── openai.py            # OpenAI RSS scraper
+    │   │   └── youtube.py           # YouTube RSS + transcript scraper
+    │   ├── services/
+    │   │   ├── process_anthropic.py # Fetch full article markdown
+    │   │   ├── process_youtube.py   # Fetch video transcripts
+    │   │   ├── process_digest.py    # Run digest generation
+    │   │   └── process_email.py     # Build and send email
+    │   ├── profiles/
+    │   │   └── user_profile.py      # Your interests and preferences
+    │   ├── config.py                # YouTube channel config
+    │   ├── daily_runner.py          # Orchestrates all 5 stages
+    │   └── runner.py                # Runs all scrapers
+    ├── docker/
+    │   └── docker-compose.yml       # PostgreSQL container
+    ├── main.py                      # Entry point
+    ├── pyproject.toml               # Dependencies
+    └── .env                         # Your credentials (not committed)---
 
 ## ⚙️ Setup & Installation
 
