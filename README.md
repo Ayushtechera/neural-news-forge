@@ -148,8 +148,10 @@ Arguments:
 
 The pipeline delivers a clean, formatted HTML email with:
 - Personalized greeting
-- AI-written introduction summarizing today's themes
+- AI-written introduction summarizing today's themes\
 - Top ranked articles with summaries and read-more links
+
+![Email Output](https://raw.githubusercontent.com/Ayushtechera/neural-news-forge/main/assets/email-screenshot.png)
 
 ---
 
