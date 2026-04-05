@@ -22,18 +22,18 @@ Tired of manually browsing AI news every morning? This pipeline does it all auto
 ---
 
 ## 🏗️ Pipeline Architecture
-Stage 1 → RSS Feeds + YouTube Channel
-↓
-Stage 2 → Scrape & Store in PostgreSQL
-↓
-Stage 3 → Process Full Content
-(docling for articles + youtube-transcript-api)
-↓
-Stage 4 → AI Summarization
-(LLaMA 3.2 via Ollama — local, free, private)
-↓
-Stage 5 → Personalized Ranking + Email Delivery
-(Curator Agent + Gmail SMTP)
+- Stage 1 → RSS Feeds + YouTube Channel
+		↓
+- Stage 2 → Scrape & Store in PostgreSQL
+		↓
+- Stage 3 → Process Full Content
+  (docling for articles + youtube-transcript-api)
+		↓
+- Stage 4 → AI Summarization
+  (LLaMA 3.2 via Ollama — local, free, private)
+		↓
+- Stage 5 → Personalized Ranking + Email Delivery
+  (Curator Agent + Gmail SMTP)
 
 ---
 
