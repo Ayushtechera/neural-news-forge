@@ -2,11 +2,6 @@
 
 > An end-to-end autonomous AI pipeline that scrapes, summarizes, ranks and delivers a personalized daily AI news digest straight to your inbox — powered by local LLMs and RSS intelligence.
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-336791)
-![Ollama](https://img.shields.io/badge/AI-Ollama%20LLaMA3.2-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
 ---
 
 ## 🚀 What it does
